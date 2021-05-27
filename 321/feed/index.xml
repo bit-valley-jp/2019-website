@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	プレイベントを開催いたしました へのコメント	</title>
+	<atom:link href="/321/feed/" rel="self" type="application/rss+xml" />
+	<link>/321/</link>
+	<description>BIT VALLEY 2019は「モノづくりは、新たな領域へ」をテーマに開催されるカンファレンスイベントです。</description>
+	<lastBuildDate>Fri, 19 Jul 2019 05:35:09 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	</channel>
+</rss>

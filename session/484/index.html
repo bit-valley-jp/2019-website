@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ja" class="no-js no-svg">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-139832721-1"></script><script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-139832721-1');
+</script><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AWS 体験ハンズオン –セキュア＆スケーラブルウェブサービス構築– | BIT VALLEY 2019</title>
+<meta name="robots" content="max-image-preview:large">
+<link rel="dns-prefetch" href="//ajax.googleapis.com">
+<link rel="dns-prefetch" href="//s.w.org">
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"..\/..\/wp-includes\/js\/wp-emoji-release.min.js"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><style type="text/css">img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}</style>
+<link rel="stylesheet" id="wp-block-library-css" href="../../wp-includes/css/dist/block-library/style.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-post-modal-css" href="../../wp-content/plugins/wp-post-modal/public/css/wp-post-modal-public.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-pagenavi-css" href="../../wp-content/plugins/wp-pagenavi/pagenavi-css.css" type="text/css" media="all">
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" id="jquery-js"></script><script type="text/javascript" id="wp-post-modal-js-extra">
+/* <![CDATA[ */
+var fromPHP = {"pluginUrl":"\../../wp-content\/plugins\/wp-post-modal\/public\/","breakpoint":"768","styled":"1","disableScrolling":"","loader":"1","ajax_url":"\/wp-admin\/admin-ajax.php","siteUrl":"","restMethod":"","iframe":"","urlState":"1","containerID":"#modal-ready","modalLinkClass":"modal-link","isAdmin":"","customizing":""};
+/* ]]> */
+</script><script type="text/javascript" src="../../wp-content/plugins/wp-post-modal/public/js/wp-post-modal-public.js" id="wp-post-modal-js"></script><link rel="https://api.w.org/" href="/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../wp-includes/wlwmanifest.xml">
+<link rel="canonical" href="/session/484/">
+<link rel="shortlink" href="/?p=484">
+<link rel="alternate" type="application/json+oembed" href="/wp-json/oembed/1.0/embed?url=%2Fsession%2F484%2F">
+<link rel="alternate" type="text/xml+oembed" href="/wp-json/oembed/1.0/embed?url=%2Fsession%2F484%2F&#038;format=xml">
+<meta name="description" content="…">
+<!-- Favicon --><link rel="apple-touch-icon" sizes="180x180" href="../../wp-content/themes/bv2019/images/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../../wp-content/themes/bv2019/images/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../../wp-content/themes/bv2019/images/favicons/favicon-16x16.png">
+<link rel="manifest" href="../../wp-content/themes/bv2019/images/favicons/site.webmanifest">
+<link rel="mask-icon" href="../../wp-content/themes/bv2019/images/favicons/safari-pinned-tab.svg" color="#000000">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.2.0/dist/css/yakuhanjp.min.css">
+<link href="../../wp-content/themes/bv2019/style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.typekit.net/knv5yhr.css?9aea7aad18f78a70">
+<!-- OGP --><meta property="og:type" content="article">
+<meta name="twitter:card" content="summary">
+<meta property="og:description" content="">
+<meta name="twitter:description" content="">
+<meta property="og:title" content="AWS 体験ハンズオン –セキュア＆スケーラブルウェブサービス構築– | BIT VALLEY 2019">
+<meta property="og:url" content="/session/484/">
+<meta name="twitter:title" content="AWS 体験ハンズオン –セキュア＆スケーラブルウェブサービス構築– | BIT VALLEY 2019">
+<meta name="twitter:url" content="/session/484/">
+<meta property="og:image" content="../../wp-content/themes/bv2019/images/ogp.png">
+<meta name="twitter:image" content="../../wp-content/themes/bv2019/images/ogp.png">
+<meta property="og:site_name" content="BIT VALLEY 2019 | ビットバレー2019">
+<meta property="fb:app_id" content="2635549273129441">
+<!-- OGP --><!-- Global site tag (gtag.js) - Google Ads: 721237242 --><script async src="https://www.googletagmanager.com/gtag/js?id=AW-721237242"></script><script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-721237242');
+</script>
+</head>
+<body class="session-template-default single single-session postid-484" id="top">
+<header id="header" class="l-header"><div class="p-header">
+		<div class="l-container">
+			<h1 class="p-header__logo">
+				<a href="../../">
+					<img src="../../wp-content/themes/bv2019/images/logo_bv2019.svg" alt="Bit Valley 2019" width="280" height="28"></a>
+			</h1>
+			<nav class="p-header__nav"><ul class="c-navbar c-navbar--sub u-sp-hidden">
+<li class="c-navbar__item"><a href="../../code/" class="code c-navbar__link c-btn-anim-1">行動規範</a></li>
+					<li class="c-navbar__item"><a href="https://techplay.jp/event/739647" target="_blank" class="ticket c-navbar__link c-btn-anim-1">チケット購入 <span class="c-icon c-icon-external"> &nbsp;</span></a></li>
+					
+				</ul>
+<ul class="c-navbar u-sp-hidden">
+<li class="c-navbar__item"><a href="../../#news" class="c-navbar__link c-btn-anim-1">News</a></li>
+					<li class="c-navbar__item"><a href="../../#about" class="c-navbar__link c-btn-anim-1">About</a></li>
+					<li class="c-navbar__item"><a href="../../#programs" class="c-navbar__link c-btn-anim-1">Programs</a></li>
+					<li class="c-navbar__item"><a href="../../#speakers" class="c-navbar__link c-btn-anim-1">Speakers</a></li>
+					<li class="c-navbar__item"><a href="../../#sessions" class="c-navbar__link c-btn-anim-1">Sessions</a></li>
+					<li class="c-navbar__item"><a href="../../#sponsors" class="c-navbar__link c-btn-anim-1">Sponsors</a></li>
+				</ul></nav><button class="menuTrigger">
+				<span class="menuTrigger__inner">
+				<span class="menuTrigger__line">&nbsp;</span>
+				<span class="menuTrigger__line">&nbsp;</span>
+				<span class="menuTrigger__line">&nbsp;</span>
+				</span>
+			</button>
+			<nav class="c-spMenuWrapper"><ul class="c-spMenu">
+<li class="c-spMenu__item"><a href="../../#news" class="c-spMenu__link">News</a></li>
+					<li class="c-spMenu__item"><a href="../../#about" class="c-spMenu__link">About</a></li>
+					<li class="c-spMenu__item"><a href="../../#programs" class="c-spMenu__link">Programs</a></li>
+					<li class="c-spMenu__item"><a href="../../#speakers" class="c-spMenu__link">Speakers</a></li>
+					<li class="c-spMenu__item"><a href="../../#sessions" class="c-spMenu__link">Sessions</a></li>
+					<li class="c-spMenu__item"><a href="../../#sponsors" class="c-spMenu__link">Sponsors</a></li>
+					<li class="c-spMenu__item c-spMenu__item--full c-spMenu__item--lang"><a href="../../code/">行動規範</a></li>
+					<li class="c-spMenu__item c-spMenu__item--full c-spMenu__item--lang"><a href="https://techplay.jp/event/739647" target="_blank">チケット購入<span class="c-icon c-icon-external">&nbsp;</span></a></li>
+				</ul></nav>
+</div>
+	</div>
+
+</header><div class="l-container sessionDetail">
+<div id="modal-ready">
+    <main id="main" class="site-main" role="main"><div class="c-sessionDetail workshop" data-category="workshop">
+            <div class="c-sessionDetail__body">
+                <div class="c-sessionDetail__meta">
+                    
+                    <p class="c-sessionDetail__category">Workshop</p>
+                    
+                                        <p class="c-sessionDetail__date">DAY1 9.13(金)</p>
+                    
+                                        <p class="c-sessionDetail__time">12:30 - 13:50</p>
+                    
+                    <p class="c-sessionDetail__area"><span class="c-icon c-icon-area">&nbsp;</span> DeNAセミナールーム（21F）</p>
+                </div>
+
+                <p class="c-sessionDetail__title fw-b">AWS 体験ハンズオン –セキュア＆スケーラブルウェブサービス構築–</p>
+                <p class="c-sessionDetail__caption">アマゾン ウェブ サービス（AWS）を利用して、セキュアでスケーラブルなウェブサービスの構築を体験いただきます。AWS を使ってより安全にサービスを運用する方法、ウェブサービスの規模に合わせて、柔軟にシステムを拡張する方法を体験できる内容です。</p>
+
+                <div class="c-avatarGroup">
+                
+                                                
+                
+                <div class="c-avatarBox u-mb15 l-justify-left">
+                    <div class="c-avatar c-avatar--m l-justify-left">
+                        <img src="../../wp-content/uploads/2019/08/profileimg_aws_hata.jpg" alt="">
+</div>
+                    <div class="c-avatar__name u-ml15">
+                        <span class="speaker-name">畑 史彦</span>
+                        <span class="speaker-company">Amazon Web Services Japan</span>
+                        <span class="speaker-job_title">Senior Solutions Architect</span>
+                    </div>
+                </div>
+                                
+                </div>
+                
+                                <div class="c-session__linkButton l-justify-center">
+                    
+                    <a class="c-btn" href="https://techplay.jp/event/744618" target="_blank">お申込はこちら</a>
+                   
+                </div>
+                
+            <ul class="c-sessionDetail__tag"><li>TECHNOLOGY</li></ul>
+</div>
+                  
+        </div>
+
+                
+
+    </main><!-- .site-main -->
+</div>
+<!-- #modal-ready -->
+</div>
+
+<footer class="l-footer"><div class="p-footer">
+
+		<div class="l-container">
+
+			<div class="p-footer__inner l-justify-center">
+				<h2 class="p-footer__logo">
+					<a href="/#top">
+						<img src="../../wp-content/themes/bv2019/images/logo_bv2019_white.svg" alt="BIT VALLEY 2019"></a>
+				</h2>
+
+				<div class="p-footer__sns l-justify-between">
+					<a href="https://twitter.com/share?url=https%3a%2f%2fbit%2dvalley%2ejp%2f&amp;text=2019%2e9%2e13%20fri%20%2d%2014%20sat%20%40SHIBUYA%20HIKARIE%20%e3%80%8c%e3%83%a2%e3%83%8e%e3%81%a5%e3%81%8f%e3%82%8a%e3%81%af%e3%80%81%e6%96%b0%e3%81%9f%e3%81%aa%e9%a0%98%e5%9f%9f%e3%81%b8%e3%80%8dBIT%20VALLEY%202019&amp;hashtags=bitvalley2019" target="_blank" rel="noopener noreferrer" class="c-btn twitter">Share<span class="c-icon c-icon--lg c-icon-twitter">&nbsp;</span></a>
+
+					<a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fbit%2dvalley%2ejp%2f" target="_blank" rel="noopener noreferrer" class="c-btn facebook">Share<span class="c-icon c-icon--lg c-icon-facebook">&nbsp;</span></a>
+				</div>
+
+				<div class="p-footer__contact">
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLScOiQpjL1ks3aUPB0IF8GuI5VHYIt165YkYebV5k8m1VfbU0g/viewform" target="_blank" class="c-btn c-btn--tp-white c-btn--full">Contact <small>お問い合わせ</small></a>
+				</div>
+				
+				<!-- <div class="p-footer__link">
+					<a href="https://bit-valley.jp/2018/">昨年のBIT VALLEY 2018 サイトはこちら</a>
+				</div> -->
+				
+				<div id="pagetop">
+					<a href="#top">
+						<img src="../../wp-content/themes/bv2019/images/pagetop.svg" alt="TOPに戻る"></a>
+				</div>
+
+				<div class="p-footer__copyright">
+					<p>
+						Copyright BIT VALLEY
+					</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</footer><div class="modal-wrapper styled" role="dialog" aria-modal="true" aria-label="Popup Dialog"><div class="wp-post-modal">
+<button type="button" aria-label="Close" class="close-modal"> × </button><div id="modal-content"></div>
+</div></div>
+<script type="text/javascript" src="../../wp-includes/js/wp-embed.min.js" id="wp-embed-js"></script><script src="../../wp-content/themes/bv2019/js/scrollreveal.min.js?9aea7aad18f78a70"></script><script src="../../wp-content/themes/bv2019/js/main.js?9aea7aad18f78a70"></script><script>
+// $('[data-fancybox]').fancybox();
+
+$(function() {
+	$('.menuTrigger').click(function() {
+		$(this).children().toggleClass('active');
+
+		if ($(this).children().hasClass('active')) {
+			$('.c-spMenuWrapper').addClass('active');
+		} else {
+			$('.c-spMenuWrapper').removeClass('active');
+		}
+	});
+});
+
+
+var menuHeight = $("#header").outerHeight();
+var startPos = 0;
+$(window).scroll(function(){
+  var currentPos = $(this).scrollTop();
+  if (currentPos > startPos) {
+    if($(window).scrollTop() >= 300) {
+      $("#header").css("top", "-" + menuHeight + "px");
+      $('.menuTrigger__inner').removeClass('active');
+      $('.c-spMenuWrapper').removeClass('active');
+    }
+  } else {
+    $("#header").css("top", 0 + "px");
+  }
+  startPos = currentPos;
+});
+
+</script>
+</body>
+</html>
